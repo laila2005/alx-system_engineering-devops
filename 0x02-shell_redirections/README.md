@@ -1,2 +1,1 @@
-#!/bin/bash
-echo "\"(Ôo)'" 
+display /etc/passwd file. in 2-hellofile 
