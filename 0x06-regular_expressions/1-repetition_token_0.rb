@@ -2,4 +2,8 @@
 
 input = ARGV[0]
 
-matches = iput.scan(/^hb(t+)n$/)
+if input.match?(/^hb(t+)n$/)
+  puts "#{input}"
+else
+  puts ""
+end
