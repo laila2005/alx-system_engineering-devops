@@ -3,7 +3,7 @@
 Script that exports an employee's TODO list to a CSV file.
 """
 
-
+import csv
 import sys
 import requests
 
@@ -36,7 +36,7 @@ def export_to_csv(employee_id):
     filename = f"{employee_id}.csv"
 
     with open(filename, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file, qouting=csv.QUOTE_ALL)
+        writer = csv.writer(file, quoting=csv.QUOTE_ALL)
         for task in todos:
             writer.writerow([
                 employee_id,
