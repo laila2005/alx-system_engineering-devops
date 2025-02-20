@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Display only listening sockets with PID and program name
+sudo netstat -tulnp | grep LISTEN
