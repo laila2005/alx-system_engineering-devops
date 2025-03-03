@@ -1,7 +1,5 @@
 # 🚨 Postmortem: The Airbnb Booking System Meltdown of [Date] 🚨
 
-![Database Deadlock Diagram](https://example.com/deadlock_diagram.png) 
-
 ## 📌 Issue Summary 😱
 On [Date], from **15:00 EET to 16:30 EET (Cairo Time)**, our beloved Airbnb booking system decided to take an unscheduled nap. As a result, reservations and payments failed spectacularly, leaving users frustrated and our support team drowning in emails. Approximately **60% of users** were affected, and we suspect the other 40% were just lucky. The root cause? A classic case of database deadlock—where our system got stuck in a loop of "No, you go first!" until everything crashed.
 
